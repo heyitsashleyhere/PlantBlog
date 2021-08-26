@@ -1,3 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reenie+Beanie&display=swap');
+
+html {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* navigation bar*/
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+nav ul li a:link {
+    text-decoration: none;
+    color: rgb(216, 213, 40);
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+    color: rgb(216, 213, 40);
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #44a786;
+    font-size: 17px;
+}
+
+nav ul li a:active {
+    text-decoration: underline;
+    color: #ffa500;
+    font-size: 17px;
+}
+
+/* Blog title */
+#indexH1 {
+    text-align: left;
+    font-size: 74px;
+    margin: 5px 2px 10px 2px
+}
+
+/* Read More button */
+.ReadMore {
+    width: 100px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #44a786;
+}
+
+.ReadMore a:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.ReadMore a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.ReadMore a:hover {
+    color: rgb(216, 213, 40)
+}
+
+/* index blog title */
+.blogTitle:hover {
+    color: #44a786;
+}
+
+/* index blog post */
+.postBox p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 100px 5px 100px;
+}
+
+.postBox img {
+    width: 500px;
+}
+
+/* signature in About page */
+#signature {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+/* social buttons in Contact page */
+.space {
+    color: #44a786;
+    margin: 10px 20px 30px;
+}
+
+.space:hover {
+    color: rgb(216, 213, 40)
+}
+
+/* footer */
+#footer hr {
+    margin-top: 100px;
+}
+
+#footer p {
+    margin-top: 10px;
+    float: left
+}
+
+#footer ul {
+    margin-top: 10px;
+    float: right;
+    list-style-type: none;
+    display: inline-block
+}
+
+#footer ul li {
+    display: inline-block;
+    margin: 0 20px
+}
+
+#footer ul li a:link {
+    text-decoration: none;
+    color:  #44a786;
+}
+
+#footer ul li a:visited {
+    text-decoration: none;
+    color: #44a786;
+}
+
+#footer ul li a:hover {
+    text-decoration: underline;
+    color: rgb(216, 213, 40);
+}
+
+#footer ul li a:active {
+    text-decoration: underline;
+    color: rgb(216, 213, 40);
+}
+/* End of footer styles */
+
+
 h1 {
     text-align: center;
     color: #44a786;

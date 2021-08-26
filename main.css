@@ -3,6 +3,10 @@ h1 {
     color: #44a786;
 }
 
+h2 {
+    color: rgb(216, 213, 40);
+    text-align: center;
+}
 
 /* Post-1 */
 
@@ -11,6 +15,20 @@ h1 {
     height: 50vh;
     object-fit: cover;
   } 
+
+  .post1img {
+    width: 400px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: contain;
+}
+
+.p-style {
+
+}
 
 /* Post-2 */
 

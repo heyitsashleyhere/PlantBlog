@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: #44a786;
+}
+
+
+/* Post-1 */
+
+.img1 {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+  } 
+
+/* Post-2 */
+
+.img2 {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+  } 
+
+/* Post-3 */
+
+.img3 {
+    width: 400px;
+    height: 600px;
+}

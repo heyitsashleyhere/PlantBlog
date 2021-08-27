@@ -214,6 +214,11 @@ p {
     width: 50%;
     object-fit: contain;
 }
+
+.list2>li:hover {
+    color: #44a786;
+}
+
 /* Post-3 */
 
 .img3 {

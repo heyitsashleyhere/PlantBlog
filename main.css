@@ -155,6 +155,16 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: #44a786;
+    text-align: center;
+}
+
+p {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
 /* Post-1 */
 
 .img1 {
@@ -183,11 +193,54 @@ h2 {
     width: 100vw;
     height: 50vh;
     object-fit: cover;
+    width: 100vw;
+    height: 50vh;
   } 
 
+  .container-photo {
+      background-image: url(./images/terrarium-background2.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 40vh;
+      padding: 10px 10px;
+  } 
+
+  .post2img {
+    width: 600px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: contain;
+}
 /* Post-3 */
 
 .img3 {
     width: 400px;
     height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: contain;
+}
+
+.post3img {
+    width: 600px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: contain;
+}
+
+.list {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.list>li:hover {
+    color: #44a786;
 }

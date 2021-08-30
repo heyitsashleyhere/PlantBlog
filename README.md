@@ -1,6 +1,6 @@
 # Build a Blog
 
-# A plant blog created together with @heyitsashleyhere
+# A plant blog created by @heyitsashleyhere, @Elenikats
 
 
 - Create an `index.html` page and a `posts` directory containing your blog posts
